@@ -1,5 +1,5 @@
 const themeConfig = require('./config/theme/')
-
+var base='/vue3-ts/';
 module.exports = {
   title: "赵庄王",
   description: 'Enjoy when you can, and endure when you must.',
@@ -23,50 +23,50 @@ module.exports = {
         {
           name: '箫中妙韵',
           artist: '巫娜',
-          url: '/audio/箫中妙韵.mp3',
-          cover: '/images/箫中妙韵.jpg'
+          url: base+'/audio/箫中妙韵.mp3',
+          cover: base+'/images/箫中妙韵.jpg'
         },
         {
           name: '古琴禅修',
           artist: '巫娜',
-          url: '/audio/古琴禅修.mp3',
-          cover: '/images/古琴禅修.jpg'
+          url: base+'/audio/古琴禅修.mp3',
+          cover: base+'/images/古琴禅修.jpg'
         },
         {
           name: 'intro',
           artist: 'The xx',
-          url: '/audio/intro.mp3',
-          cover: '/images/intro.jpg'
+          url: base+'/audio/intro.mp3',
+          cover: base+'/images/intro.jpg'
         },
         {
           name: 'Venus',
           artist: 'Lil Jet',
-          url: '/audio/Venus.mp3',
-          cover: '/images/Venus.jpg'
+          url: base+'/audio/Venus.mp3',
+          cover: base+'/images/Venus.jpg'
         },
         {
           name: 'Auditions',
           artist: 'Sing Cast',
-          url: '/audio/Auditions.mp3',
-          cover: '/images/Auditions.jpg'
+          url: base+'/audio/Auditions.mp3',
+          cover: base+'/images/Auditions.jpg'
         },
         {
           name: 'Right Now (Na Na Na)',
           artist: '邓壬鑫',
-          url: '/audio/Right Now (Na Na Na).mp3',
-          cover: '/images/Right Now (Na Na Na).jpg'
+          url: base+'/audio/Right Now (Na Na Na).mp3',
+          cover: base+'/images/Right Now (Na Na Na).jpg'
         },
         {
           name: '杨戬擒悟空',
           artist: '许镜清',
-          url: '/audio/杨戬擒悟空.mp3',
-          cover: '/images/杨戬擒悟空.jpg'
+          url: base+'/audio/杨戬擒悟空.mp3',
+          cover: base+'/images/杨戬擒悟空.jpg'
         },
         {
           name: '男儿当自强',
           artist: '林子祥',
-          url: '/audio/男儿当自强.mp3',
-          cover: '/images/男儿当自强.jpg'
+          url: base+'/audio/男儿当自强.mp3',
+          cover: base+'/images/男儿当自强.jpg'
         },
 
       ],
