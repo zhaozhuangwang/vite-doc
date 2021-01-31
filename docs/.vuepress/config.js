@@ -9,7 +9,7 @@ module.exports = {
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   theme: 'reco',
-  dest: './pages',
+  dest: 'pages',
   base: '/vue3-ts/',
   themeConfig,
   markdown: {
@@ -21,46 +21,52 @@ module.exports = {
     {
       audios: [
         {
-          name: '不离开我',
-          artist: '乙未豪客传奇',
-          url: '/audio/不离开我.mp3',
-          cover: '/images/audio1.jpg'
+          name: '箫中妙韵',
+          artist: '巫娜',
+          url: '/audio/箫中妙韵.mp3',
+          cover: '/images/箫中妙韵.jpg'
         },
         {
-          name: '女儿心事难诉说',
-          artist: '乙未豪客传奇',
-          url: '/audio/女儿心事难诉说.mp3',
-          cover: '/images/audio2.jpg'
+          name: '古琴禅修',
+          artist: '巫娜',
+          url: '/audio/古琴禅修.mp3',
+          cover: '/images/古琴禅修.jpg'
         },
         {
-          name: '谁说也不信它',
-          artist: '乙未豪客传奇',
-          url: '/audio/谁说也不信它.mp3',
-          cover: '/images/audio3.jpg'
+          name: 'intro',
+          artist: 'The xx',
+          url: '/audio/intro.mp3',
+          cover: '/images/intro.jpg'
         },
         {
-          name: '路不平',
-          artist: '乙未豪客传奇',
-          url: '/audio/路不平.mp3',
-          cover: '/images/audio4.jpg'
+          name: 'Venus',
+          artist: 'Lil Jet',
+          url: '/audio/Venus.mp3',
+          cover: '/images/Venus.jpg'
         },
         {
-          name: '就算是河干',
-          artist: '乙未豪客传奇',
-          url: '/audio/就算是河干.mp3',
-          cover: '/images/audio5.jpg'
+          name: 'Auditions',
+          artist: 'Sing Cast',
+          url: '/audio/Auditions.mp3',
+          cover: '/images/Auditions.jpg'
         },
         {
-          name: '情比天地久',
-          artist: '乙未豪客传奇',
-          url: '/audio/情比天地久.mp3',
-          cover: '/images/audio6.jpg'
+          name: 'Right Now (Na Na Na)',
+          artist: '邓壬鑫',
+          url: '/audio/Right Now (Na Na Na).mp3',
+          cover: '/images/Right Now (Na Na Na).jpg'
         },
         {
-          name: '等待只有离别',
-          artist: '乙未豪客传奇',
-          url: '/audio/等待只有离别.mp3',
-          cover: '/images/audio7.jpg'
+          name: '杨戬擒悟空',
+          artist: '许镜清',
+          url: '/audio/杨戬擒悟空.mp3',
+          cover: '/images/杨戬擒悟空.jpg'
+        },
+        {
+          name: '男儿当自强',
+          artist: '林子祥',
+          url: '/audio/男儿当自强.mp3',
+          cover: '/images/男儿当自强.jpg'
         },
 
       ],

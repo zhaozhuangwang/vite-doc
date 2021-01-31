@@ -11,5 +11,5 @@ module.exports = Object.assign({}, themeReco, {
   search: true,
   searchMaxSuggestions: 10,
   // 自动形成侧边导航
-  sidebar: 'auto',
+  // sidebar: 'auto',
 })

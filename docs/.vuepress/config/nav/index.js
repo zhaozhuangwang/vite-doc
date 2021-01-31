@@ -1,6 +1,14 @@
 module.exports = [
+  // 111
   { text: 'Home', link: '/', icon: 'reco-home' },
   { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
+  { text: 'docs', 
+    icon: 'reco-message',
+    items: [
+      { text: 'vue', link: '/docs/vue/', icon: 'reco-npm' },
+      { text: 'react', link: '/docs/react/', icon: 'reco-npm' },
+    ]
+  },
   { text: 'Contact', 
     icon: 'reco-message',
     items: [
