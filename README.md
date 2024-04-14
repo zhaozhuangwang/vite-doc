@@ -1,25 +1,7 @@
+# Vue 3 + Vite
 
-# 技术讲解
-# VuePress
-Vue 驱动的静态网站生成器
-https://www.vuepress.cn/
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-入门全教程：
-https://www.z01.com/help/web/3582.shtml
+## Recommended IDE Setup
 
-
-如果你是部署在GitPage的根域名，如waipo.github.io，则需要将dist发布后的文件，放在master根目录。
-
-所以，本库：
-1、master分支是发布后的文件。
-2、develop分支是完整的源码
-3、gh-pages分支没有任何意义，除非作为子目录部署，如waipo.github.io/gh-pages配置。
-
-
-
-## 运行命令：
-```
-npm run  docs:dev
-npm run  docs:build
-
-```
+- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
